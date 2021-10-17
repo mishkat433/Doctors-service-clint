@@ -7,7 +7,7 @@ const BlogCards = (props) => {
         <div className="col-lg-4">
             <div className="full-card top" >
                 <div className="images d-flex mb-3">
-                    <img src={authorImg} alt="image not found" />
+                    <img src={authorImg} alt="not found" />
                     <div className="par">
                         <h4>{author}</h4>
                         <p className="m-0">{date}</p>

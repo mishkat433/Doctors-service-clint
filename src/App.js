@@ -28,10 +28,10 @@ const App = () => {
           <PrivateRoute path="/apointment">
             <GetAppointment></GetAppointment>
           </PrivateRoute>
-            <Route path="/login">
+          <Route path="/login">
               <Login></Login>
           </Route>
-            <PrivateRoute path="/reviews">
+          <PrivateRoute path="/reviews">
               <Review></Review>
           </PrivateRoute>
             <Route path="*">

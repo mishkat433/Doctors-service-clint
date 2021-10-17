@@ -13,7 +13,7 @@ const HeaderMain = () => {
                     
                 </div>
                 <div className="col-lg-7">
-                    <img className="headerMain-chair" src={chair} alt="Image not found"/>
+                    <img className="headerMain-chair" src={chair} alt="not found"/>
                 </div>
             </div>
         </div>

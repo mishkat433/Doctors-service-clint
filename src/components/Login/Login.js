@@ -2,7 +2,7 @@ import React from 'react';
 import loginImage from "../../images/Group 140.png";
 import "./Login.css";
 import * as firebase from "firebase/app";
-import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
+import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import firebaseConfig from "./firebase.config"
 import { useContext } from 'react';
 import { UserContext } from '../../App';
