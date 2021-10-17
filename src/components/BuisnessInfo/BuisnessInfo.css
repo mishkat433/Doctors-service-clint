@@ -1,0 +1,30 @@
+.fullCard{
+   height: 100px;
+   width: 100%;
+    color: #fff;
+    overflow: hidden;
+    padding: 10px;
+}
+.icon{
+    font-size: 4rem;
+    margin-top: 8px;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+.detail{
+    margin-top: 8px;
+}
+.detail h3{
+    font-size: 20px;
+}
+.detail h4{
+    font-size: 15px;
+}
+.full{
+    position: absolute;
+    bottom: -50px;
+    z-index: 12;
+}
+.fullCard{
+    border-radius: 4px;
+}

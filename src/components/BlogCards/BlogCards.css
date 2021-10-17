@@ -1,0 +1,33 @@
+.full-card.top {
+    margin-top: 70px;
+    height: 400px;
+}
+.top:hover{
+    background-image: linear-gradient(to right, rgb(11, 204, 146), rgb(46, 224, 236));
+}
+.top:hover .p{
+    display: none;
+}
+.top:hover .heading{
+    color: #fff;
+}
+.arow{
+    display: none;
+}
+.top:hover .arow{
+    display: block;
+    animation-name: arow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 50%;
+}
+@keyframes arow{
+    from{
+        margin-left: 0%;
+    }
+    to{
+        margin-left: 86%;
+    }
+}

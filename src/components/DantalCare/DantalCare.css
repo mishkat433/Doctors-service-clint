@@ -1,0 +1,14 @@
+.dantal-image{
+    height: 550px;
+    width: 100%;
+}
+.dental-head{
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 2.8rem;
+}
+.dental-para{
+    margin-top: 70px;
+    font-size: 1.3rem;
+    line-height: 45px;
+}

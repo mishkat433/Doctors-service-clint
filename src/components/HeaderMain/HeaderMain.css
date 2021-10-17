@@ -1,0 +1,35 @@
+.headerMain{
+    margin-top: 80px;
+}
+.headerMain-chair{
+    height: 320px;
+    width: 100%;
+}
+.head-text{
+    color: #141f42;
+    font-size: 3rem;
+}
+.appointment-btn{
+    background-image: linear-gradient(to right, rgb(11, 204, 146), rgb(46, 224, 236));
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.appointment-btn:focus{
+    outline: none;
+    border: none;
+}
+.appointment-btn:hover{
+    background-image: linear-gradient(to right, rgb(46, 224, 236),rgb(11, 204, 146));
+}
+.appointment-btn a{
+    text-decoration: none;
+    color: #000;
+}

@@ -1,0 +1,20 @@
+.full-card{
+    box-shadow: 0px 2px 5px -2px gray;
+    padding: 20px;
+    margin-bottom: 130px;
+}
+
+.full-card .p{
+    font-size: 17px;
+    line-height: 40px;
+}
+.par{
+    margin-left: 10px;
+    text-align: left;
+    line-height: 5px;
+}
+.images img{
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+}

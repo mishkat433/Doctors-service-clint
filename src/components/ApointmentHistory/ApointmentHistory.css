@@ -1,0 +1,26 @@
+.apointmentHistory{
+    margin-top: 200px;
+    background: linear-gradient( #454d61ef,  #454d61f3), url("../../images/Mask\ Group\ 4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.doctor{
+    position: absolute;
+    top: -171px;
+    left: -175px;
+    height: 671px;
+    width: 700px;
+}
+.apointment-head{
+    font-size: 3rem;
+    margin-top: 40px;
+}
+.apointment-para{
+    font-size: 22px;
+    line-height: 40px;
+    color: #fff;
+    margin-top: 40px;
+}

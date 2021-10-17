@@ -1,0 +1,13 @@
+.doctors{
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+.dortor-bg{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    background-color: #fff;
+    height: 127px;
+    width: 100%;
+}

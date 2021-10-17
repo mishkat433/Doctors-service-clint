@@ -1,0 +1,18 @@
+.contact{
+    height: 670px;
+    width: 100%;
+    background: linear-gradient( rgb(21, 20, 32), rgb(21, 20, 32)), url("../../images/Mask\ Group\ 4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.input{
+    height: 60px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+textarea{
+    font-size: 20px;
+}
+.butto{
+    margin-left: 42%;
+}
