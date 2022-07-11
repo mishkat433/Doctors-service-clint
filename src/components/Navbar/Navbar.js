@@ -17,22 +17,23 @@ const Navbar = () => {
                         <Link to="/" className="nav-link mr-5" >Home <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link mr-5" href="#">About</a>
+                        <a className="nav-link mr-5" href="/">About</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link mr-5" href="#">Dental Services</a>
+                        <a className="nav-link mr-5" href="/">Dental Services</a>
                     </li>
                     <li className="nav-item">
                         <Link to="/reviews" className="nav-link mr-5 text-white">Reviews</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/login" className="nav-link mr-5 text-white" href="#">Login</Link>
+                        <Link to="/login" className="nav-link mr-5 text-white" href="/">Login</Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link mr-5 text-white" href="#">Contact Us</a>
                     </li>
                 </ul>
             </div>
+            {setLoginUser}
         </nav>
     );
 };

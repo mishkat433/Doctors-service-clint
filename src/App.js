@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { createContext } from 'react';
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import GetAppointment from './components/GetApointment/GetAppointment';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
@@ -13,32 +13,32 @@ export const UserContext = createContext();
 
 const App = () => {
   const [loginUser, setLoginUser] = useState({
-    name:"",
+    name: "",
     email: "",
-    photo:""
+    photo: ""
   });
   return (
     <div>
       <UserContext.Provider value={[loginUser, setLoginUser]}>
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <PrivateRoute path="/apointment">
-            <GetAppointment></GetAppointment>
-          </PrivateRoute>
-          <Route path="/login">
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <PrivateRoute path="/apointment">
+              <GetAppointment></GetAppointment>
+            </PrivateRoute>
+            <Route path="/login">
               <Login></Login>
-          </Route>
-          <PrivateRoute path="/reviews">
+            </Route>
+            <PrivateRoute path="/reviews">
               <Review></Review>
-          </PrivateRoute>
+            </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>
-        </Switch>
-      </Router>
+          </Switch>
+        </Router>
       </UserContext.Provider>
     </div>
   );

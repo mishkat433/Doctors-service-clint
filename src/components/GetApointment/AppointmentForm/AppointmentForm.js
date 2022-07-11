@@ -18,36 +18,35 @@ const customStyles = {
 Modal.setAppElement('#root');
 
 const AppointmentForm = (props) => {
-    
-    const [loginUser, setLoginUser]= useContext(UserContext)
-    const [information,setInformation]= useState({
+
+    const [loginUser, setLoginUser] = useContext(UserContext)
+    const [information, setInformation] = useState({
         name: "",
         email: loginUser.email,
-        phone:"",
-        gender:"",
-        age:"",
-        weight:"",
+        phone: "",
+        gender: "",
+        age: "",
+        weight: "",
         appointment: props.appointmentOn,
         date: new Date(),
     })
     const { modalIsOpen, closeModal, appointmentOn } = props
 
-   const handleSubmit=(e)=>{
-       fetch("https://afternoon-brook-91177.herokuapp.com/appointment",{
-           method: "POST",
-           headers: {"Content-Type": "application/json"} ,
-           body: JSON.stringify(information)
-       })
-       .then(res=>res.json())
-       .then(result=>{
-           console.log(result)
-           if(result){
-               closeModal()
-               alert("data send successfull")
-           }
-       })
-       e.preventDefault()
-   }
+    const handleSubmit = (e) => {
+        fetch("https://afternoon-brook-91177.herokuapp.com/appointment", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(information)
+        })
+            .then(res => res.json())
+            .then(result => {
+                if (result) {
+                    closeModal()
+                    alert("data send successfull")
+                }
+            })
+        e.preventDefault()
+    }
 
     // let valid = false
     // if (e.target.name === "gender") {
@@ -58,38 +57,38 @@ const AppointmentForm = (props) => {
     //     }
 
     // }
-  
-   const changeHandle=(even)=>{
-       const newInfo = { ...information }
-       newInfo[even.target.name] = even.target.value
-       setInformation(newInfo)
-   }
-   
+
+    const changeHandle = (even) => {
+        const newInfo = { ...information }
+        newInfo[even.target.name] = even.target.value
+        setInformation(newInfo)
+    }
+
     return (
         <div >
             <Modal
                 isOpen={modalIsOpen}
                 // onAfterOpen={afterOpenModal}
-                 onRequestClose={closeModal}
+                onRequestClose={closeModal}
                 style={customStyles}
                 contentLabel="Example Modal">
 
                 <h2 className="text-center text-brand titl">{appointmentOn}</h2>
-               
+
 
                 <form className="p-5" >
                     <div className="form-group">
                         <input onBlur={changeHandle} value={appointmentOn} type="text" name="Appointment" placeholder="Appointment Name" className="form-control" required />
                     </div>
                     <div className="form-group">
-                        <input onBlur={changeHandle} type="text" name="name" placeholder="Patient Name" className="form-control" required/>
+                        <input onBlur={changeHandle} type="text" name="name" placeholder="Patient Name" className="form-control" required />
                     </div>
                     <div className="form-group">
-                        <input onBlur={changeHandle} type="text"  name="phone" placeholder="Phone Number" className="form-control" required/>
+                        <input onBlur={changeHandle} type="text" name="phone" placeholder="Phone Number" className="form-control" required />
                     </div>
                     <div className="form-group">
-                        <input onBlur={changeHandle} type="text" value={loginUser.email}   name="email" placeholder="Email" className="form-control" required />
-                        
+                        <input onBlur={changeHandle} type="text" value={loginUser.email} name="email" placeholder="Email" className="form-control" required />
+
                     </div>
                     <div className="form-group row">
                         <div className="col-4">
@@ -99,14 +98,14 @@ const AppointmentForm = (props) => {
                                 <option value="Female">Female</option>
                                 <option value="other">Other</option>
                             </select>
-                            
+
                         </div>
                         <div className="col-4">
-                            <input onBlur={changeHandle} className="form-control" name="age" placeholder="Your Age" type="number" required/>
-                            
+                            <input onBlur={changeHandle} className="form-control" name="age" placeholder="Your Age" type="number" required />
+
                         </div>
                         <div className="col-4">
-                            <input onBlur={changeHandle} className="form-control" name="weight" placeholder="Weight" type="number" required/>
+                            <input onBlur={changeHandle} className="form-control" name="weight" placeholder="Weight" type="number" required />
                         </div>
                     </div>
 
@@ -116,7 +115,7 @@ const AppointmentForm = (props) => {
                 </form>
             </Modal>
 
-            
+
         </div>
     );
 };
