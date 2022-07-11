@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Doctors-service-clint/static/css/main.7def2eeb.chunk.css",
-    "main.js": "/Doctors-service-clint/static/js/main.85fca7de.chunk.js",
-    "main.js.map": "/Doctors-service-clint/static/js/main.85fca7de.chunk.js.map",
+    "main.js": "/Doctors-service-clint/static/js/main.bf71a0bb.chunk.js",
+    "main.js.map": "/Doctors-service-clint/static/js/main.bf71a0bb.chunk.js.map",
     "runtime-main.js": "/Doctors-service-clint/static/js/runtime-main.3d0c6cec.js",
     "runtime-main.js.map": "/Doctors-service-clint/static/js/runtime-main.3d0c6cec.js.map",
     "static/js/2.c150416f.chunk.js": "/Doctors-service-clint/static/js/2.c150416f.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.3d0c6cec.js",
     "static/js/2.c150416f.chunk.js",
     "static/css/main.7def2eeb.chunk.css",
-    "static/js/main.85fca7de.chunk.js"
+    "static/js/main.bf71a0bb.chunk.js"
   ]
 }
