@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.3708a2b0.chunk.css",
-    "main.js": "/static/js/main.0fb545f6.chunk.js",
-    "main.js.map": "/static/js/main.0fb545f6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b37d8f4f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b37d8f4f.js.map",
-    "static/js/2.7b3d0d91.chunk.js": "/static/js/2.7b3d0d91.chunk.js",
-    "static/js/2.7b3d0d91.chunk.js.map": "/static/js/2.7b3d0d91.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.3708a2b0.chunk.css.map": "/static/css/main.3708a2b0.chunk.css.map",
-    "static/js/2.7b3d0d91.chunk.js.LICENSE.txt": "/static/js/2.7b3d0d91.chunk.js.LICENSE.txt",
-    "static/media/5790-removebg.c80616e9.png": "/static/media/5790-removebg.c80616e9.png",
-    "static/media/Ellipse 1.7f2a53ae.png": "/static/media/Ellipse 1.7f2a53ae.png",
-    "static/media/Ellipse 2.7d40dbea.png": "/static/media/Ellipse 2.7d40dbea.png",
-    "static/media/Ellipse 3.ed100122.png": "/static/media/Ellipse 3.ed100122.png",
-    "static/media/Group 140.f704c879.png": "/static/media/Group 140.f704c879.png",
-    "static/media/Header.css": "/static/media/Mask Group 2.c5b67508.png",
-    "static/media/Mask Group 3.928305bb.png": "/static/media/Mask Group 3.928305bb.png",
-    "static/media/Contact.css": "/static/media/Mask Group 4.2eadc9a9.png",
-    "static/media/MaskGroup1.f9bf62b3.png": "/static/media/MaskGroup1.f9bf62b3.png"
+    "main.css": "/doctors-service-clint/static/css/main.556f5f71.chunk.css",
+    "main.js": "/doctors-service-clint/static/js/main.6cdfd8e8.chunk.js",
+    "main.js.map": "/doctors-service-clint/static/js/main.6cdfd8e8.chunk.js.map",
+    "runtime-main.js": "/doctors-service-clint/static/js/runtime-main.c14f71ae.js",
+    "runtime-main.js.map": "/doctors-service-clint/static/js/runtime-main.c14f71ae.js.map",
+    "static/js/2.7b3d0d91.chunk.js": "/doctors-service-clint/static/js/2.7b3d0d91.chunk.js",
+    "static/js/2.7b3d0d91.chunk.js.map": "/doctors-service-clint/static/js/2.7b3d0d91.chunk.js.map",
+    "index.html": "/doctors-service-clint/index.html",
+    "static/css/main.556f5f71.chunk.css.map": "/doctors-service-clint/static/css/main.556f5f71.chunk.css.map",
+    "static/js/2.7b3d0d91.chunk.js.LICENSE.txt": "/doctors-service-clint/static/js/2.7b3d0d91.chunk.js.LICENSE.txt",
+    "static/media/5790-removebg.c80616e9.png": "/doctors-service-clint/static/media/5790-removebg.c80616e9.png",
+    "static/media/Ellipse 1.7f2a53ae.png": "/doctors-service-clint/static/media/Ellipse 1.7f2a53ae.png",
+    "static/media/Ellipse 2.7d40dbea.png": "/doctors-service-clint/static/media/Ellipse 2.7d40dbea.png",
+    "static/media/Ellipse 3.ed100122.png": "/doctors-service-clint/static/media/Ellipse 3.ed100122.png",
+    "static/media/Group 140.f704c879.png": "/doctors-service-clint/static/media/Group 140.f704c879.png",
+    "static/media/Header.css": "/doctors-service-clint/static/media/Mask Group 2.c5b67508.png",
+    "static/media/Mask Group 3.928305bb.png": "/doctors-service-clint/static/media/Mask Group 3.928305bb.png",
+    "static/media/Contact.css": "/doctors-service-clint/static/media/Mask Group 4.2eadc9a9.png",
+    "static/media/MaskGroup1.f9bf62b3.png": "/doctors-service-clint/static/media/MaskGroup1.f9bf62b3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b37d8f4f.js",
+    "static/js/runtime-main.c14f71ae.js",
     "static/js/2.7b3d0d91.chunk.js",
-    "static/css/main.3708a2b0.chunk.css",
-    "static/js/main.0fb545f6.chunk.js"
+    "static/css/main.556f5f71.chunk.css",
+    "static/js/main.6cdfd8e8.chunk.js"
   ]
 }
