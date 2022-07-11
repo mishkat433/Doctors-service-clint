@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Doctors-service-clint/static/css/main.7def2eeb.chunk.css",
+    "main.js": "/Doctors-service-clint/static/js/main.85fca7de.chunk.js",
+    "main.js.map": "/Doctors-service-clint/static/js/main.85fca7de.chunk.js.map",
+    "runtime-main.js": "/Doctors-service-clint/static/js/runtime-main.3d0c6cec.js",
+    "runtime-main.js.map": "/Doctors-service-clint/static/js/runtime-main.3d0c6cec.js.map",
+    "static/js/2.c150416f.chunk.js": "/Doctors-service-clint/static/js/2.c150416f.chunk.js",
+    "static/js/2.c150416f.chunk.js.map": "/Doctors-service-clint/static/js/2.c150416f.chunk.js.map",
+    "index.html": "/Doctors-service-clint/index.html",
+    "static/css/main.7def2eeb.chunk.css.map": "/Doctors-service-clint/static/css/main.7def2eeb.chunk.css.map",
+    "static/js/2.c150416f.chunk.js.LICENSE.txt": "/Doctors-service-clint/static/js/2.c150416f.chunk.js.LICENSE.txt",
+    "static/media/5790-removebg.c80616e9.png": "/Doctors-service-clint/static/media/5790-removebg.c80616e9.png",
+    "static/media/Ellipse 1.7f2a53ae.png": "/Doctors-service-clint/static/media/Ellipse 1.7f2a53ae.png",
+    "static/media/Ellipse 2.7d40dbea.png": "/Doctors-service-clint/static/media/Ellipse 2.7d40dbea.png",
+    "static/media/Ellipse 3.ed100122.png": "/Doctors-service-clint/static/media/Ellipse 3.ed100122.png",
+    "static/media/Group 140.f704c879.png": "/Doctors-service-clint/static/media/Group 140.f704c879.png",
+    "static/media/Header.css": "/Doctors-service-clint/static/media/Mask Group 2.c5b67508.png",
+    "static/media/Mask Group 3.928305bb.png": "/Doctors-service-clint/static/media/Mask Group 3.928305bb.png",
+    "static/media/Contact.css": "/Doctors-service-clint/static/media/Mask Group 4.2eadc9a9.png",
+    "static/media/MaskGroup1.f9bf62b3.png": "/Doctors-service-clint/static/media/MaskGroup1.f9bf62b3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d0c6cec.js",
+    "static/js/2.c150416f.chunk.js",
+    "static/css/main.7def2eeb.chunk.css",
+    "static/js/main.85fca7de.chunk.js"
+  ]
+}
