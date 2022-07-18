@@ -23,13 +23,13 @@ const Navbar = () => {
                         <a className="nav-link mr-5" href="/">Dental Services</a>
                     </li>
                     <li className="nav-item">
-                        <Link to="/reviews" className="nav-link mr-5 text-white">Reviews</Link>
+                        <Link to="/reviews" className="nav-link mr-5 text-white">Appointment List</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/login" className="nav-link mr-5 text-white" href="/">Login</Link>
+                        <Link to="/login" className="nav-link mr-5 text-white">Login</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link mr-5 text-white" href="#">Contact Us</a>
+                        <a className="nav-link mr-5 text-white" href="/">Contact Us</a>
                     </li>
                 </ul>
             </div>

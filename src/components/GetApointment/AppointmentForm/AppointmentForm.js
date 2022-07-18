@@ -115,7 +115,7 @@ const AppointmentForm = (props) => {
                 </form>
             </Modal>
 
-
+            {setLoginUser}
         </div>
     );
 };

@@ -34,7 +34,7 @@ const App = () => {
             <PrivateRoute path="/reviews">
               <Review></Review>
             </PrivateRoute>
-            <Route path="*">
+            <Route exact path="*">
               <NotFound></NotFound>
             </Route>
           </Switch>

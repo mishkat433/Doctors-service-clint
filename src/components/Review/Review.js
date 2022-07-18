@@ -12,7 +12,7 @@ const Review = () => {
         fetch("https://afternoon-brook-91177.herokuapp.com/appointmentInfo?email=" + loginUser.email)
             .then(res => res.json())
             .then(data => setInfo(data))
-    }, [])
+    }, [loginUser.email])
     const dd = setLoginUser;
     return (
         <div className="header-container">
